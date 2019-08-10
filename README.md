@@ -1,2 +1,2 @@
 # cheungis.github.io
-Personal website
+Personal website for showcasing projects
