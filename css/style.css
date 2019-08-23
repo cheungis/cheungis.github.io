@@ -13,6 +13,68 @@ body{
     overflow: hidden;
 }
 
+.box-1{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: : 20px;
+    background-color: silver;
+    padding: 5px 30px 30px 30px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    line-height: 1.0em;
+    overflow: hidden;
+}
+
+.box-1 h2{
+    font-size: 25px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.box-1 a{
+    color: snow;
+}
+
+.box-1 a:hover{
+  color: gainsboro
+}
+
+.box-1 a:active{
+  color: slategray
+}
+
+.box-2{
+    width: 70% - 150px;
+    font-size: 16px;
+    text-align: left;
+    float: left;
+}
+
+.box-3{
+    width: 150px;
+    font-size: 20px;
+    font-family: Impact;
+    letter-spacing: 3px;
+    text-align: center;
+    float: right;
+    background: #333;
+    padding: 20px 10px;
+    border: 2px lightgray outset;
+    border-radius: 20px;
+    box-sizing: border-box;
+    line-height: 1.2em;
+}
+
+@media (max-width:600px) {
+    .box-2{
+        float:none;
+    }
+    .box-3{
+        float:none;
+    }
+}
+
 #main-header{
     background-color: dimgray;
     color: white;
@@ -76,6 +138,12 @@ ul{
     padding: 30 30px;
     color: black;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#project h1{
+    font-size: 45px;
 }
 
 #info{
