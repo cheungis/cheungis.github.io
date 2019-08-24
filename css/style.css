@@ -20,6 +20,7 @@ body{
     margin-bottom: : 20px;
     background-color: silver;
     padding: 30px;
+    padding-bottom: 10px;
     border: 1px gray solid;
     border-radius: 10px;
     line-height: 1.0em;
@@ -38,18 +39,25 @@ body{
   color: slategray
 }
 
-.box-2{
-    width: 70% - 150px;
-    font-size: 16px;
-    text-align: left;
-    float: left;
-}
-
-.box-2 h2{
-    margin-top: 0px;
+.box-1 h2{
+    margin: 0px;
     font-size: 25px;
     text-align: left;
     text-decoration: underline;
+}
+
+.box-2{
+    width: 70%;
+    text-align: left;
+    float: left;
+    font-size: 16px;
+    line-height: 1.3em;
+    box-sizing: border-box;
+    margin: 20px 0px;
+}
+
+.box-2 a{
+    color: black;
 }
 
 .box-3{
@@ -61,17 +69,16 @@ body{
     float: right;
     background: #333;
     padding: 20px 10px;
+    margin: 10px 5px;
     border: 2px lightgray outset;
     border-radius: 20px;
     box-sizing: border-box;
     line-height: 1.2em;
 }
 
-@media (max-width:600px) {
+@media (max-width:1050px) {
     .box-2{
-        float:none;
-    }
-    .box-3{
+        width: 100%;
         float:none;
     }
 }
@@ -136,7 +143,6 @@ ul{
 }
 
 #project {
-    padding: 30 30px;
     color: black;
     text-align: center;
     margin-top: 20px;
@@ -144,7 +150,7 @@ ul{
 }
 
 #project h1{
-    font-size: 45px;
+    font-size: 35px;
 }
 
 #info{
