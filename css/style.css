@@ -133,8 +133,7 @@ ul{
   color: #fff;
   font-size: 50px;
   line-height: 1.6em;
-  padding-top: 30px;
-  padding-bottom: 300px;
+  padding-top: 200px;
 }
 
 #showcase p{
@@ -142,6 +141,7 @@ ul{
   font-size: 35px;
   line-height: 1.6em;
   padding-top: 0px;
+  padding-bottom: 150px;
 }
 
 #project {
