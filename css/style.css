@@ -1,7 +1,7 @@
 body{
     background-color: lightgray;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
     margin: 0;
@@ -63,7 +63,7 @@ body{
 .box-3{
     width: 150px;
     font-size: 20px;
-    font-family: Impact;
+    font-family: Helvetica, Impact;
     letter-spacing: 3px;
     text-align: center;
     float: right;
