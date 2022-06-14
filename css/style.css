@@ -13,7 +13,7 @@ body{
     overflow: hidden;
 }
 
-.box-1{
+.experience-entry{
     width: 75%;
     margin: auto;
     margin-top: 20px;
@@ -27,25 +27,25 @@ body{
     overflow: hidden;
 }
 
-.box-1 a{
+.experience-entry a{
     color: snow;
 }
 
-.box-1 a:hover{
+.experience-entry a:hover{
   color: gainsboro
 }
 
-.box-1 a:active{
+.experience-entry a:active{
   color: slategray
 }
 
-.box-1 h2{
+.experience-entry h2{
     margin: 0px;
     font-size: 30px;
     text-align: left;
 }
 
-.box-2{
+.experience-info{
     width: 70%;
     text-align: left;
     float: left;
@@ -55,58 +55,36 @@ body{
     margin: 20px 0px;
 }
 
-.box-2 a{
+.experience-info a{
     color: black;
 }
 
-.box-2 ul{
+.experience-info ul{
     list-style-type: disc;
 }
 
-.box-2 li{
+.experience-info li{
     margin: 0 0 5px 20px;
 }
 
-.box-3{
-    width: 150px;
-    font-size: 20px;
-    font-family: Helvetica, Impact;
-    letter-spacing: 3px;
-    text-align: center;
-    float: right;
-    background: #333;
-    padding: 20px 10px;
-    margin: 10px 5px;
-    border: 2px lightgray outset;
-    border-radius: 20px;
-    box-sizing: border-box;
-    line-height: 1.2em;
-}
-
 @media (max-width:1050px) {
-    .box-2{
+    .experience-info{
         width: 100%;
         float:none;
     }
 }
 
-.box-company-logo{
+.company-logo{
     width: 30%;
     float: right;
     margin-left: auto;
     margin-right: auto;
 }
 
-.box-company-logo img{
+.company-logo img{
     alt: "Company Logo";
     width: 60%;
     height: auto;
-}
-
-#main-header{
-    background-color: dimgray;
-    color: white;
-    position: sticky;
 }
 
 #navbar{
@@ -176,17 +154,6 @@ ul{
     font-size: 40px;
 }
 
-#project {
-    color: black;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-#project h1{
-    font-size: 40px;
-}
-
 #info{
     background: #333333;
     color: #fff;
@@ -208,7 +175,7 @@ ul{
   color:slategray
 }
 
-#main-footer{
+#footer{
     background: #101110;
     color: #fff;
     text-align: center;
