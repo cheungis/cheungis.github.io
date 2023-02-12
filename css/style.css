@@ -1,10 +1,19 @@
+
 body {
-    background-color: #222221;
-    color: white;
+    background-color: #0F172A;
+    color: #E7EEF5;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
     margin: 0;
+}
+
+a:hover {
+    color: #B5CFEC
+}
+
+a:active {
+    color: #7B9CC1
 }
 
 .container {
@@ -18,7 +27,7 @@ body {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #3D3936;
+    background-color: #1E293B;
     padding: 30px;
     padding-bottom: 10px;
     border: 1px #141414 solid;
@@ -27,18 +36,6 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-}
-
-.experience-entry a {
-    color: snow;
-}
-
-.experience-entry a:hover {
-    color: gainsboro
-}
-
-.experience-entry a:active {
-    color: slategray
 }
 
 .experience-entry h2 {
@@ -59,7 +56,6 @@ body {
     width: 100%;
     text-align: left;
     float: left;
-    font-size: 16px;
     line-height: 1.3em;
     box-sizing: border-box;
 }
@@ -68,14 +64,9 @@ body {
     width: 80%;
     text-align: left;
     float: left;
-    font-size: 16px;
     line-height: 1.3em;
     box-sizing: border-box;
     margin: -20px 0px 12px 0px;
-}
-
-.experience-info a {
-    color: black;
 }
 
 .experience-info ul {
@@ -114,8 +105,7 @@ body {
 }
 
 #navbar {
-    background-color: #101110;
-    color: #fff;
+    background-color: #475569;
     position: sticky;
     top: 0;
 }
@@ -130,22 +120,23 @@ ul {
 }
 
 #navbar a {
-    color: #fff;
+    color: #E7EEF5;
     text-decoration: none;
     font-size: 18px;
     padding-right: 15px;
 }
 
 #navbar a:hover {
-    color: gainsboro
+    color: #B5CFEC
 }
 
 #navbar a:active {
-    color: slategray
+    color: #7B9CC1
 }
 
+
 #showcase {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/bg.png);
     background-position: bottom right;
     background-attachment: fixed;
     min-height: 300px;
@@ -154,7 +145,6 @@ ul {
 }
 
 #showcase h1 {
-    color: #fff;
     font-size: 70px;
     line-height: 1.6em;
     padding-top: 200px;
@@ -162,12 +152,11 @@ ul {
 }
 
 #showcase p {
-    color: #fff;
     font-size: 35px;
     line-height: 1.6em;
     padding-top: 0px;
     padding-bottom: 150px;
-    margin-top: 0px
+    margin-top: 0px;
 }
 
 #experience {
@@ -181,32 +170,20 @@ ul {
 }
 
 #info {
-    background: #333333;
-    color: #fff;
+    background: #141F31;
     padding: 10px;
     text-align: center;
 }
 
 #info a {
-    color: #fff;
+    color: #E7EEF5;
     text-decoration: none;
-    font-size: 16px;
-}
-
-#info a:hover {
-    color: gainsboro
-}
-
-#info a:active {
-    color: slategray
 }
 
 #footer {
-    background: #101110;
-    color: #fff;
+    background: #475569;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
     font-size: 10px;
-
 }
