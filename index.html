@@ -2,119 +2,158 @@
 <html>
 <head>
     <title>Isaac Cheung</title>
-    <link rel="stylesheet" href="css/style.css">
-	<link rel="icon" type="image/x-icon" href="images/a_favicon_logo.png">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="images/a_favicon_logo.png" rel="icon" type="image/x-icon">
 </head>
 <body>
-    <nav id = "navbar">
-        <div class = "container">
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "#experience">Work Experience</a></li>
-                <li><a href = "resources/Isaac_Cheung_CS_Resume.pdf">Resume</a></li>
-                <li><a href = "https://github.com/cheungis">GitHub</a></li>
-                <li><a href = "#info">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+<nav id="navbar">
+    <div class="container">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="resources/Isaac_Cheung_CS_Resume.pdf">Resume</a></li>
+            <li><a href="https://github.com/cheungis">GitHub</a></li>
+            <li><a href="#info">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
-    <section id = "showcase">
-        <div class = "container">
-            <h1>Isaac Cheung</h1>
-            <p>Software Engineer</p>
-        </div>
-    </section>
+<section id="showcase">
+    <div class="container">
+        <h1>Isaac Cheung</h1>
+        <p>Software Engineer</p>
+    </div>
+</section>
 
-    <section id = "experience">
-        <div class = "container">
-            <h1>Work Experience</h1>
+<section id="experience">
+    <div class="container">
+        <h1>Work Experience</h1>
 
-			<div class = "experience-entry">
-                <h2>Google</h2>
-                <div class = "experience-info">
+        <div class="experience-entry">
+            <div class="experience-header">
+                <div class="experience-header-info">
+                    <h2>Google</h2>
                     <h3> Software Engineer </h3>
                     <h4> August 2022 - Present</h4>
-                    <p>Software Engineer at Google.</p>
-
                 </div>
-
-                <div class = "company-logo">
+                <div class="company-logo">
                     <img src="images/google_logo.png">
                 </div>
             </div>
+            <div class="experience-info">
+                <p>Software Engineer at Google.</p>
 
-            <div class = "experience-entry">
-                <h2>Amazon Web Services</h2>
-                <div class = "experience-info">
+            </div>
+        </div>
+
+        <div class="experience-entry">
+            <div class="experience-header">
+                <div class="experience-header-info">
+                    <h2>Amazon Web Services</h2>
                     <h3> Software Development Engineer Intern </h3>
                     <h4> February 2021 - August 2021 </h4>
-                    <p>AWS EC2 SDE Intern on the Optimus team, worked on the AWS Assessment Service API, the Optimus Connector, and the Schema Conversion Tool Analyzer using Java and Golang.</p>
-                    <ul>
-                        <li> Designed and implemented remote server execution support using VMware APIs. Done using Java and Golang.</li>
-                        <li> Integrated the AWS Schema Conversion Tool into existing service API workflow using Java and Docker, allowing the generation of recommendations for database migrations on the cloud.</li>
-                        <li> Leveraged numerous native AWS services, such as S3, DynamoDB, Lambda, API Gateway, Secrets Manager, Cloud Watch, and Cloud Formation to streamline development.</li>
-                        <li> Led all testing for the features that I worked on, including unit tests, integration tests, and end-to-end tests.</li>
-                    </ul>
                 </div>
-
-                <div class = "company-logo">
-                    <img src="images/aws_logo2_white.png">
-                </div>
-            </div>
-
-            <div class = "experience-entry">
-                <h2>Amazon Web Services</h2>
-                <div class = "experience-info">
-                    <h3> Software Development Engineer Intern </h3>
-                    <h4> May 2020 - September 2020 </h4>
-                    <p>AWS EC2 SDE Intern on the Server Migration Service team, worked on the Server Migration Service API and region build automation deployment code using Java and Ruby.</p>
-                    <ul>
-                        <li> Reduced the Server Migration Service's console load time latency by over 60% through various API optimizations, such as leveraging global secondary indexes in DynamoDB to improve filtering. Done using Java.</li>
-                        <li> Increased the region build automation's coverage from 60% to 90% and removed deprecated dependencies through a refactoring of the team's automated region build code using an internal framework in Ruby.</li>
-                    </ul>
-                </div>
-
-                <div class = "company-logo">
+                <div class="company-logo">
                     <img src="images/aws_logo_white.png">
                 </div>
             </div>
+            <div class="experience-info">
+                <p>AWS EC2 SDE Intern on the Optimus team, worked on the AWS Assessment Service API, the Optimus
+                    Connector, and the Schema Conversion Tool Analyzer using Java and Golang.</p>
+                <ul>
+                    <li> Designed and implemented remote server execution support using VMware APIs. Done using Java and
+                        Golang.
+                    </li>
+                    <li> Integrated the AWS Schema Conversion Tool into existing service API workflow using Java and
+                        Docker, allowing the generation of recommendations for database migrations on the cloud.
+                    </li>
+                    <li> Leveraged numerous native AWS services, such as S3, DynamoDB, Lambda, API Gateway, Secrets
+                        Manager, Cloud Watch, and Cloud Formation to streamline development.
+                    </li>
+                    <li> Led all testing for the features that I worked on, including unit tests, integration tests, and
+                        end-to-end tests.
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-            <div class = "experience-entry">
-                <h2>BGC Engineering</h2>
-                <div class = "experience-info">
+        <div class="experience-entry">
+            <div class="experience-header">
+                <div class="experience-header-info">
+                    <h2>Amazon Web Services</h2>
+                    <h3> Software Development Engineer Intern </h3>
+                    <h4> May 2020 - September 2020 </h4>
+                </div>
+                <div class="company-logo">
+                    <img src="images/aws_logo2_white.png">
+                </div>
+            </div>
+            <div class="experience-info">
+                <p>AWS EC2 SDE Intern on the Server Migration Service team, worked on the Server Migration Service API
+                    and region build automation deployment code using Java and Ruby.</p>
+                <ul>
+                    <li> Reduced the Server Migration Service's console load time latency by over 60% through various
+                        API optimizations, such as leveraging global secondary indexes in DynamoDB to improve filtering.
+                        Done using Java.
+                    </li>
+                    <li> Increased the region build automation's coverage from 60% to 90% and removed deprecated
+                        dependencies through a refactoring of the team's automated region build code using an internal
+                        framework in Ruby.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience-entry">
+            <div class="experience-header">
+                <div class="experience-header-info">
+                    <h2>BGC Engineering</h2>
                     <h3> Web & Mobile Development Intern </h3>
                     <h4> January 2020 - May 2020 </h4>
-                    <p>Worked on Cambio, BGC Engineering's geohazard risk management software using TypeScript, C#, and SQL Server.</p>
-                    <ul>
-                        <li> Added functionality to the map identify tool, enabling the tool to select polygon geometry based target objects using TypeScript. </li>
-                        <li> Solved numerous concurrency issues related to the web form logic used by 1000+ engineers daily. </li>
-                        <li> Created new React web form and web form components to support 1000+ engineers in the field daily, enabling them to electronically document inspections and remotely sync the data on various hazard sites.</li>
-                        <li> Decreased the Jira backlog by over 10% by fixing numerous bugs in both front and back end of the code base using TypeScript, C#, and SQL Server. </li>
-                    </ul>
                 </div>
-
-                <div class = "company-logo">
+                <div class="company-logo">
                     <img src="images/bgc_logo_white.png">
                 </div>
             </div>
-
+            <div class="experience-info">
+                <p>Worked on Cambio, BGC Engineering's geohazard risk management software using TypeScript, C#, and SQL
+                    Server.</p>
+                <ul>
+                    <li> Added functionality to the map identify tool, enabling the tool to select polygon geometry
+                        based target objects using TypeScript.
+                    </li>
+                    <li> Solved numerous concurrency issues related to the web form logic used by 1000+ engineers
+                        daily.
+                    </li>
+                    <li> Created new React web form and web form components to support 1000+ engineers in the field
+                        daily, enabling them to electronically document inspections and remotely sync the data on
+                        various hazard sites.
+                    </li>
+                    <li> Decreased the Jira backlog by over 10% by fixing numerous bugs in both front and back end of
+                        the code base using TypeScript, C#, and SQL Server.
+                    </li>
+                </ul>
+            </div>
         </div>
-    </section>
 
-    <aside id = "info">
-        <div class = "contact">
-            <h2>Contact info</h2>
-            <ul>
-                <li>Phone number: 604.500.3129</li>
-                <li>E-mail: <a href = "mailto:isaac.cheung@hotmail.com">isaac.cheung@hotmail.com</a></li>
-            </ul>
-            <a href = "https://www.linkedin.com/in/cheungis/"><img src="images/linkedin.png" alt="linkedin" align="bottom" height="40" width="40"></a>
-        </div>
-    </aside>
+    </div>
+</section>
 
-    <footer id = "footer">
-        <p class="copyright"></p>
-        <script src="footer.js"></script>
-    </footer>
+<aside id="info">
+    <div class="contact">
+        <h2>Contact info</h2>
+        <ul>
+            <li>Phone number: 604.500.3129</li>
+            <li>E-mail: <a href="mailto:isaac.cheung@hotmail.com">isaac.cheung@hotmail.com</a></li>
+        </ul>
+        <a href="https://www.linkedin.com/in/cheungis/"><img align="bottom" alt="linkedin" height="40"
+                                                             src="images/linkedin.png" width="40"></a>
+    </div>
+</aside>
+
+<footer id="footer">
+    <p class="copyright"></p>
+    <script src="footer.js"></script>
+</footer>
 </body>
 </html>
