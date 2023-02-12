@@ -91,6 +91,15 @@ body {
         width: 100%;
         float: none;
     }
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 850px) {
+    .container {
+        width: 100%;
+    }
 }
 
 .company-logo {
