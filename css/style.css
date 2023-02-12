@@ -66,7 +66,7 @@ body {
 }
 
 .experience-info {
-    width: 85%;
+    width: 80%;
     text-align: left;
     float: left;
     font-size: 16px;
@@ -92,6 +92,15 @@ body {
         width: 100%;
         float: none;
     }
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 850px) {
+    .container {
+        width: 100%;
+    }
 }
 
 .company-logo {
@@ -101,7 +110,7 @@ body {
 
 .company-logo img {
     alt: "Company Logo";
-    max-height: 100px;
+    max-height: 92px;
     float: right;
 }
 
