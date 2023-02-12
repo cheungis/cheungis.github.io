@@ -1,6 +1,6 @@
 body{
-    background-color: #222221;
-    color: white;
+    background-color: #0F172A;
+    color: #CBD5E1;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
@@ -18,7 +18,7 @@ body{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #3D3936;
+    background-color: #1E293B;
     padding: 30px;
     padding-bottom: 10px;
     border: 1px #141414 solid;
@@ -88,7 +88,7 @@ body{
 }
 
 #navbar{
-	background-color: #101110;
+	background-color: #475569;
     color: #fff;
     position: sticky;
     top: 0;
@@ -104,7 +104,7 @@ ul{
 }
 
 #navbar a{
-    color: #fff;
+    color: #CBD5E1;
     text-decoration: none;
     font-size: 18px;
     padding-right:15px;
@@ -119,8 +119,8 @@ ul{
 }
 
 #showcase{
-    background-image: url(../images/bg.jpg);
-    background-position: bottom right ;
+    background-image: url(../images/bg.png);
+    background-position: center ;
     background-attachment: fixed ;
     min-height: 300px;
     margin-bottom: 30px;
@@ -128,7 +128,7 @@ ul{
 }
 
 #showcase h1{
-  color: #fff;
+  color: #CBD5E1;
   font-size: 70px;
   line-height: 1.6em;
   padding-top: 200px;
@@ -136,7 +136,7 @@ ul{
 }
 
 #showcase p{
-  color: #fff;
+  color: #CBD5E1;
   font-size: 35px;
   line-height: 1.6em;
   padding-top: 0px;
@@ -155,14 +155,14 @@ ul{
 }
 
 #info{
-    background: #333333;
-    color: #fff;
+    background: #141F31;
+    color: #CBD5E1;
     padding:10px;
     text-align: center;
 }
 
 #info a{
-    color: #fff;
+    color: #CBD5E1;
     text-decoration: none;
     font-size: 16px;
 }
@@ -176,8 +176,8 @@ ul{
 }
 
 #footer{
-    background: #101110;
-    color: #fff;
+    background: #475569;
+    color: #CBD5E1;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
