@@ -1,7 +1,7 @@
 
 body {
     background-color: #0F172A;
-    color: #CBD5E1;
+    color: #E7EEF5;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
@@ -131,7 +131,7 @@ ul {
 }
 
 #navbar a {
-    color: #CBD5E1;
+    color: #E7EEF5;
     text-decoration: none;
     font-size: 18px;
     padding-right: 15px;
@@ -156,7 +156,7 @@ ul {
 }
 
 #showcase h1 {
-    color: #CBD5E1;
+    color: #E7EEF5;
     font-size: 70px;
     line-height: 1.6em;
     padding-top: 200px;
@@ -164,7 +164,7 @@ ul {
 }
 
 #showcase p {
-    color: #CBD5E1;
+    color: #E7EEF5;
     font-size: 35px;
     line-height: 1.6em;
     padding-top: 0px;
@@ -184,13 +184,13 @@ ul {
 
 #info {
     background: #141F31;
-    color: #CBD5E1;
+    color: #E7EEF5;
     padding: 10px;
     text-align: center;
 }
 
 #info a {
-    color: #CBD5E1;
+    color: #E7EEF5;
     text-decoration: none;
     font-size: 16px;
 }
@@ -205,7 +205,7 @@ ul {
 
 #footer {
     background: #475569;
-    color: #CBD5E1;
+    color: #E7EEF5;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
