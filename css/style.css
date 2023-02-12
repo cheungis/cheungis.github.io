@@ -120,7 +120,7 @@ ul{
 
 #showcase{
     background-image: url(../images/bg.png);
-    background-position: center ;
+    background-position: bottom right ;
     background-attachment: fixed ;
     min-height: 300px;
     margin-bottom: 30px;
