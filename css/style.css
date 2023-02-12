@@ -8,6 +8,14 @@ body {
     margin: 0;
 }
 
+a:hover {
+    color: #B5CFEC
+}
+
+a:active {
+    color: #7B9CC1
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -30,18 +38,6 @@ body {
     flex-direction: column;
 }
 
-.experience-entry a {
-    color: snow;
-}
-
-.experience-entry a:hover {
-    color: gainsboro
-}
-
-.experience-entry a:active {
-    color: slategray
-}
-
 .experience-entry h2 {
     margin: 0px;
     font-size: 30px;
@@ -60,7 +56,6 @@ body {
     width: 100%;
     text-align: left;
     float: left;
-    font-size: 16px;
     line-height: 1.3em;
     box-sizing: border-box;
 }
@@ -69,14 +64,9 @@ body {
     width: 80%;
     text-align: left;
     float: left;
-    font-size: 16px;
     line-height: 1.3em;
     box-sizing: border-box;
     margin: -20px 0px 12px 0px;
-}
-
-.experience-info a {
-    color: black;
 }
 
 .experience-info ul {
@@ -116,7 +106,6 @@ body {
 
 #navbar {
     background-color: #475569;
-    color: #fff;
     position: sticky;
     top: 0;
 }
@@ -138,11 +127,11 @@ ul {
 }
 
 #navbar a:hover {
-    color: gainsboro
+    color: #B5CFEC
 }
 
 #navbar a:active {
-    color: slategray
+    color: #7B9CC1
 }
 
 
@@ -156,7 +145,6 @@ ul {
 }
 
 #showcase h1 {
-    color: #E7EEF5;
     font-size: 70px;
     line-height: 1.6em;
     padding-top: 200px;
@@ -164,7 +152,6 @@ ul {
 }
 
 #showcase p {
-    color: #E7EEF5;
     font-size: 35px;
     line-height: 1.6em;
     padding-top: 0px;
@@ -184,7 +171,6 @@ ul {
 
 #info {
     background: #141F31;
-    color: #E7EEF5;
     padding: 10px;
     text-align: center;
 }
@@ -192,23 +178,12 @@ ul {
 #info a {
     color: #E7EEF5;
     text-decoration: none;
-    font-size: 16px;
-}
-
-#info a:hover {
-    color: gainsboro
-}
-
-#info a:active {
-    color: slategray
 }
 
 #footer {
     background: #475569;
-    color: #E7EEF5;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
     font-size: 10px;
-
 }
